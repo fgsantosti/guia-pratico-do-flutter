@@ -119,7 +119,7 @@ class WidgetSemEstado extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Text(
-        'Olá, Mundo!!!',
+        '$texto',
         style: TextStyle(
           color: Colors.blue,
           fontSize: 40,
