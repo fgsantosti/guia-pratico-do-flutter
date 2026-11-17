@@ -1,14 +1,14 @@
-# Chapter 2 - Flutter Widget Catalog 
+# Capítulo 2 - Catálogo de Widgets do Flutter
 
 ## 📋 Índice
 
-1. [Introdução](#introdução)
-2. [Design Systems](#design-systems)
-3. [Base Widgets](#base-widgets)
-4. [Widgets Essenciais por Categoria](#widgets-essenciais-por-categoria)
-5. [Exemplos Práticos](#exemplos-práticos)
-6. [Melhores Práticas](#melhores-práticas)
-7. [Recursos Adicionais](#recursos-adicionais)
+1. [Introdução](#-introdução)
+2. [Design Systems](#-design-systems)
+3. [Base Widgets](#-base-widgets)
+4. [Widgets Essenciais por Categoria](#-widgets-essenciais-por-categoria)
+5. [Exemplos Práticos](#-exemplos-práticos)
+6. [Melhores Práticas](#-melhores-práticas)
+7. [Recursos Adicionais](#-recursos-adicionais)
 
 ## 🚀 Introdução
 

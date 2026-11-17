@@ -1,17 +1,17 @@
-# Enviando Dados para uma Nova Tela
+# 3.1 - Enviando Dados para uma Nova Tela
 
 ## 📋 Índice
 
-1. [Introdução](#introdução)
-2. [Conceitos Fundamentais](#conceitos-fundamentais)
-3. [Método 1: Passagem Direta via Construtor](#método-1-passagem-direta-via-construtor)
-4. [Método 2: Usando RouteSettings](#método-2-usando-routesettings)
-5. [Método 3: Named Routes com Argumentos](#método-3-named-routes-com-argumentos)
-6. [Tipos de Dados Suportados](#tipos-de-dados-suportados)
-7. [Exemplos Práticos Avançados](#exemplos-práticos-avançados)
-8. [Melhores Práticas](#melhores-práticas)
-9. [Tratamento de Erros](#tratamento-de-erros)
-10. [Recursos Adicionais](#recursos-adicionais)
+1. [Introdução](#-introdução)
+2. [Conceitos Fundamentais](#-conceitos-fundamentais)
+3. [Método 1: Passagem Direta via Construtor](#-método-1-passagem-direta-via-construtor)
+4. [Método 2: Usando RouteSettings](#-método-2-usando-routesettings)
+5. [Método 3: Named Routes com Argumentos](#-método-3-named-routes-com-argumentos)
+6. [Tipos de Dados Suportados](#-tipos-de-dados-suportados)
+7. [Exemplos Práticos Avançados](#-exemplos-práticos-avançados)
+8. [Melhores Práticas](#-melhores-práticas)
+9. [Tratamento de Erros](#-tratamento-de-erros)
+10. [Recursos Adicionais](#-recursos-adicionais)
 
 ## 🚀 Introdução
 
@@ -624,7 +624,7 @@ class TodoDetailScreen extends StatelessWidget {
 }
 ```
 
-## 🗺️ Método 3: Named Routes com Argumentos
+## 🗺 Método 3: Named Routes com Argumentos
 
 ### Configuração de Rotas Nomeadas
 
@@ -1473,7 +1473,7 @@ class _DetailScreenState extends State<DetailScreen> {
 }
 ```
 
-## ⚠️ Tratamento de Erros
+## ⚠ Tratamento de Erros
 
 ### 1. Argumentos Nulos ou Inválidos
 

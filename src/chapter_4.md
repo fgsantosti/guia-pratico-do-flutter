@@ -1,18 +1,17 @@
-# Chapter 4 - Flutter Gerenciamento de Estado
+# Capítulo 4 - Gerenciamento de Estado com Provider
 
 ## 📋 Índice
 
-1. [Introdução](#introdução)
-2. [Conceitos Fundamentais](#conceitos-fundamentais)
-3. [setState - Estado Local](#setstate---estado-local)
-4. [InheritedWidget - Estado Compartilhado](#inheritedwidget---estado-compartilhado)
-5. [Provider - Solução Recomendada](#provider---solução-recomendada)
-6. [Tipos de Provider](#tipos-de-provider)
-7. [Padrões Avançados com Provider](#padrões-avançados-com-provider)
-8. [Outras Soluções de Estado](#outras-soluções-de-estado)
-9. [Exemplos Práticos Completos](#exemplos-práticos-completos)
-10. [Melhores Práticas](#melhores-práticas)
-11. [Recursos Adicionais](#recursos-adicionais)
+1. [Introdução](#-introdução)
+2. [Conceitos Fundamentais](#-conceitos-fundamentais)
+3. [setState - Estado Local](#-setstate---estado-local)
+4. [InheritedWidget - Estado Compartilhado](#-inheritedwidget---estado-compartilhado)
+5. [Provider - Solução Recomendada](#-provider---solução-recomendada)
+6. [Tipos de Provider](#-tipos-de-provider)
+7. [Padrões Avançados com Provider](#-padrões-avançados-com-provider)
+8. [Exemplo Prático Completo - App de Tarefas](#-exemplo-prático-completo---app-de-tarefas)
+9. [Recursos Adicionais](#-recursos-adicionais)
+10. [Conclusão](#-conclusão)
 
 ## 🚀 Introdução
 
@@ -100,7 +99,7 @@ class _CounterWidgetState extends State<CounterWidget> {
 - ❌ Dificulta testes unitários
 - ❌ Não escala bem para aplicações complexas
 
-## 🏗️ InheritedWidget - Estado Compartilhado
+## 🏗 InheritedWidget - Estado Compartilhado
 
 InheritedWidget permite compartilhar dados pela árvore de widgets sem passar props manualmente.
 

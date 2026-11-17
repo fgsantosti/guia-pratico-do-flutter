@@ -1,4 +1,4 @@
-# Chapter 1 - Introdução ao Flutter - Guia Passo a Passo
+# Capítulo 1 - Introdução ao Flutter: Guia Passo a Passo
 
 Este guia apresenta os conceitos fundamentais do Flutter através de exemplos práticos, desde um simples "Olá, Mundo!" até widgets com estado.
 
@@ -60,7 +60,7 @@ void main(){
 
 - Decorações de texto
 
-## 🏗️ Passo 3: Criando um Widget Personalizado (StatelessWidget)
+## 🏗 Passo 3: Criando um Widget Personalizado (StatelessWidget)
 
 ````
 void main(){
@@ -243,9 +243,9 @@ class _ContadorState extends State<Contador>{
 
 - Interpolação de strings com $
 
-# 🔍 StatelessWidget vs StatefulWidget
+## 🔍 StatelessWidget vs StatefulWidget
 
-## StatelessWidget
+### StatelessWidget
 
 - Imutável: Não pode alterar seu estado após ser criado
 
@@ -264,7 +264,7 @@ class MeuWidgetEstatico extends StatelessWidget {
 }
 ````
 
-## StatefulWidget
+### StatefulWidget
 
 - Mutável: Pode alterar seu estado durante o ciclo de vida
 
@@ -290,7 +290,7 @@ class _MeuWidgetDinamicoState extends State<MeuWidgetDinamico> {
 }
 ````
 
-# 📚 Próximos Passos
+## 📚 Próximos Passos
 
 ### Layouts: Aprenda sobre Row, Column, Stack
 
@@ -302,7 +302,7 @@ class _MeuWidgetDinamicoState extends State<MeuWidgetDinamico> {
 
 ### Estado Global: Use Provider ou Bloc para gerenciamento de estado
 
-# 🛠️ Comandos Úteis
+## 🛠 Comandos Úteis
 ### Criar novo projeto
 `flutter create meu_app`
 
@@ -315,7 +315,7 @@ class _MeuWidgetDinamicoState extends State<MeuWidgetDinamico> {
 ### Limpar build
 `flutter clean`
 
-# 📖 Recursos Adicionais
+## 📖 Recursos Adicionais
 
 - Documentação Oficial do Flutter
 

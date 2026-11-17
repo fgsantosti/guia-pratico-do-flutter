@@ -1,14 +1,14 @@
-# Chapter 3 - Flutter Navegação e Rotas 
+# Capítulo 3 - Navegação e Rotas
 
 ## 📋 Índice
 
-1. [Introdução](#introdução)
-2. [Navegação Básica (Navigator 1.0)](#navegação-básica-navigator-10)
-3. [Navegação Avançada (Navigator 2.0)](#navegação-avançada-navigator-20)
-4. [Go Router - Solução Declarativa](#go-router---solução-declarativa)
-5. [Exemplos Práticos](#exemplos-práticos)
-6. [Melhores Práticas](#melhores-práticas)
-7. [Recursos Adicionais](#recursos-adicionais)
+1. [Introdução](#-introdução)
+2. [Navegação Básica (Navigator 1.0)](#-navegação-básica-navigator-10)
+3. [Navegação Avançada (Navigator 2.0)](#-navegação-avançada-navigator-20)
+4. [Go Router - Solução Declarativa](#-go-router---solução-declarativa)
+5. [Exemplos Práticos](#-exemplos-práticos)
+6. [Melhores Práticas](#-melhores-práticas)
+7. [Recursos Adicionais](#-recursos-adicionais)
 
 ## 🚀 Introdução
 

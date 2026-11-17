@@ -1,4 +1,4 @@
-# Chapter 8 - Aplicativo CRUD Flutter - Estrutura Completa
+# Capítulo 8 - Aplicativo CRUD com SQLite
 
 ## 📁 Estrutura do Projeto
 
@@ -27,7 +27,7 @@ dependencies:
   path: ^1.8.3         # Manipulação de caminhos de arquivo
 ```
 
-##🔧 Arquivos do Projeto
+## 🔧 Arquivos do Projeto
 
 
 ### 1. main.dart
@@ -1099,7 +1099,7 @@ class _FormUsuarioState extends State<FormUsuario> {
 ## 🚀 Como Usar
 - Adicione as dependências no pubspec.yaml
 - Copie todos os arquivos para suas respectivas pastas
-- Execute flutter `pub get`
+- Execute `flutter pub get`
 - Execute o aplicativo com `flutter run`
 
 O aplicativo permite criar, listar, editar e excluir usuários com persistência local usando SQLite.

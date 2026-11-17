@@ -1,4 +1,4 @@
-# 🛡️ Flutter: Gerenciamento de Estado com BLoC - Tutorial Completo
+# Capítulo 5 - Gerenciamento de Estado com BLoC
 
 ## 📖 Sobre Este Tutorial
 
@@ -45,7 +45,7 @@ Em vez de misturar tudo em um único widget com `setState()`, o BLoC organiza se
 
 O `flutter_bloc` é um **pacote oficial mantido pela equipe do BLoC** que fornece tudo que você precisa para aplicar esse padrão no Flutter de forma prática.
 
-### 🛠️ O que Ele Oferece
+### 🛠 O que Ele Oferece
 
 - **Widgets prontos**: `BlocBuilder`, `BlocProvider`, `BlocListener`
 - Integração com `Stream` e `InheritedWidget`
@@ -66,7 +66,7 @@ A interface (UI) fica separada da lógica de negócio. Código mais limpo e orga
 ### 📈 **Código Organizado e Escalável**
 Estrutura clara: eventos, estados e lógica bem separados. Facilita manutenção e crescimento.
 
-### ♻️ **Lógica Reutilizável**
+### ♻ **Lógica Reutilizável**
 Reaproveite o mesmo BLoC em várias partes do app ou outros projetos.
 
 ### 🧪 **Fácil de Testar**
@@ -95,7 +95,7 @@ Mais código repetitivo para estruturar a lógica.
 
 ## 🚀 Implementação Passo a Passo
 
-### 1️⃣ **Adicionar Dependência**
+### 1⃣ **Adicionar Dependência**
 
 Adicione no `pubspec.yaml`:
 
@@ -104,7 +104,7 @@ dependencies:
   flutter_bloc: ^9.1.1
 ```
 
-### 2️⃣ **Estrutura de Arquivos Recomendada**
+### 2⃣ **Estrutura de Arquivos Recomendada**
 
 ```
 lib/
@@ -120,7 +120,7 @@ lib/
 │           └── home_page.dart
 ```
 
-### 3️⃣ **Definindo os Eventos**
+### 3⃣ **Definindo os Eventos**
 
 Crie `features/home/bloc/home_event.dart`:
 
@@ -137,7 +137,7 @@ final class IncrementEvent extends HomeEvent {}
 - Melhora a análise estática do código
 - Previne criação de subclasses não intencionais
 
-### 4️⃣ **Definindo os Estados**
+### 4⃣ **Definindo os Estados**
 
 Crie `features/home/bloc/home_state.dart`:
 
@@ -157,7 +157,7 @@ final class HomeState {
 - Melhora performance
 - Deixa a intenção do código mais clara
 
-### 5️⃣ **Implementando o BLoC**
+### 5⃣ **Implementando o BLoC**
 
 Crie `features/home/bloc/home_bloc.dart`:
 
@@ -188,7 +188,7 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
 - `on<IncrementEvent>()`: Registra handler para o evento
 - `emit()`: Emite novo estado para a UI
 
-### 6️⃣ **Criando a Interface**
+### 6⃣ **Criando a Interface**
 
 Crie `features/home/view/home_page.dart`:
 
@@ -257,7 +257,7 @@ class HomePage extends StatelessWidget {
 - `BlocBuilder`: Reconstrói UI quando estado muda
 - `bloc.add()`: Adiciona evento ao BLoC
 
-### 7️⃣ **Configurando o App**
+### 7⃣ **Configurando o App**
 
 Crie `app.dart`:
 
@@ -292,7 +292,7 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-### 8️⃣ **Configurando o Main**
+### 8⃣ **Configurando o Main**
 
 Crie/edite `main.dart`:
 
@@ -347,7 +347,7 @@ FloatingActionButton(
 )
 ```
 
-### 2. **Evento é Processado** ⚙️
+### 2. **Evento é Processado** ⚙
 ```dart
 on<IncrementEvent>((event, emit) {
   emit(HomeState(state.counter + 1));
@@ -563,7 +563,7 @@ final class SetCounterEvent extends HomeEvent {
 
 ---
 
-## 🛠️ Ferramentas Úteis
+## 🛠 Ferramentas Úteis
 
 ### 📦 **Pacotes Complementares**
 ```yaml

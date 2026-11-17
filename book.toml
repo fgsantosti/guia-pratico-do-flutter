@@ -1,0 +1,19 @@
+[book]
+title = "Guia Prático do Flutter"
+authors = ["fgsantosti"]
+description = "Guia prático de Flutter em português: do básico ao avançado."
+language = "pt-BR"
+src = "src"
+
+[build]
+build-dir = "book"
+create-missing = false
+
+[output.html]
+git-repository-url = "https://github.com/fgsantosti/guia-pratico-do-flutter"
+edit-url-template = "https://github.com/fgsantosti/guia-pratico-do-flutter/edit/main/{path}"
+default-theme = "light"
+preferred-dark-theme = "navy"
+
+[output.html.search]
+enable = true
